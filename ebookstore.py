@@ -4,6 +4,7 @@ cursor = db.cursor()
 
 print("------------------\n")
 print("\nWelcome to Ebooktore!\n")
+print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸")
 # creating the table
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS book(id INTEGER PRIMARY KEY, title TEXT,
@@ -61,6 +62,7 @@ db.commit()
 # User Menu with while loop to keep coming back here
 while True:
     print("***Ebookstore User Menu***")
+    print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸")
     print("\n1. Enter book\n2. Update book\n3. Delete book\n4. Search books\n0. Exit\n")
     menu_choice = input("What would you like to do?: ")
     
