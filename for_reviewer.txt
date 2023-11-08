@@ -1,0 +1,12 @@
+Hi!
+
+Thank you for reviewing my code.  I am so far mainly happy with it, but I do have some concerns:
+
+I haven't defined any of my own functions, so it seems like a lot of code. Do you think functions would
+improve the code?
+
+I am not sure if I am using the rollback feature properly.  You can see on line 122 I have used it,
+but I think that the ValueError has been caught before it actually writes to the database - would this mean
+that my rollback could be deleting the previous entry before I even entered my ValueError test?
+
+Do I need to type db.commit() when I am selecting from the database but not writing?
