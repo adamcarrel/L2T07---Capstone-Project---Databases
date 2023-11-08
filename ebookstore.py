@@ -3,7 +3,9 @@ db = sqlite3.connect('book')
 cursor = db.cursor()
 
 print("------------------\n")
+
 print("\nWelcome to World Book Store!\n")
+
 # creating the table
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS book(id INTEGER PRIMARY KEY, title TEXT,
