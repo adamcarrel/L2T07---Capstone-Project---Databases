@@ -1,0 +1,19 @@
+https://github.com/adamcarrel/L2T07---Capstone-Project---Databases.git
+
+Hopefully I have merged these properly!
+
+The final version should have ASCII art on 
+lines 7 and 65.
+
+I wasn't able to use the push command from the command line.
+It gave me an error message about remote password access not being
+available since 2021.  So most of what I did was through the github
+website and desktop app.  That was useful anyway.
+
+I did generally find the documentation for this task a bit confusing.
+I wasn't always sure when I was meant to be creating repos, files etc,
+or if I was just to be imagining/theorising about them.
+
+Thanks!
+
+Adam
