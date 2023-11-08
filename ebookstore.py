@@ -3,7 +3,7 @@ db = sqlite3.connect('book')
 cursor = db.cursor()
 
 print("------------------\n")
-print("\nWelcome to World Book Store!\n")
+print("\nWelcome to Ebooktore!\n")
 # creating the table
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS book(id INTEGER PRIMARY KEY, title TEXT,
@@ -60,7 +60,7 @@ db.commit()
 
 # User Menu with while loop to keep coming back here
 while True:
-    print("***World Book Store User Menu***")
+    print("***Ebookstore User Menu***")
     print("\n1. Enter book\n2. Update book\n3. Delete book\n4. Search books\n0. Exit\n")
     menu_choice = input("What would you like to do?: ")
     
