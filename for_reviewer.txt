@@ -1,3 +1,5 @@
+This file was for the review of the original code, not the Git section of the course.
+
 Hi!
 
 Thank you for reviewing my code.  I am so far mainly happy with it, but I do have some concerns:
