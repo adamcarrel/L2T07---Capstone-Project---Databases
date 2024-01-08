@@ -1,7 +1,5 @@
-# L2T07---Capstone-Project---Databases
-ebookstore capstone proejct
+This is a project I completed as part of my course with Hyperion Dev and 
+University of Edinburgh.
 
-https://github.com/adamcarrel/L2T07---Capstone-Project---Databases.git
-
-Hopefully I have merged these properly!  The final version should have some ASCII art
-on lines 7 and 65
+It is a python program that accesses an SQL database. The user can search
+for, add or delete books.
